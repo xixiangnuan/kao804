@@ -1,0 +1,77 @@
+body {
+  font-size: 0.14rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+.header {
+  height: 0.44rem;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  padding: 0 0.18rem; }
+  .header span {
+    flex: 1;
+    display: flex;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    color: #999999; }
+  .header .active {
+    color: #617EF6; }
+
+.content {
+  -webkit-flex: 1;
+  overflow-y: scroll; }
+
+.list {
+  width: 86%;
+  margin-left: 7%;
+  height: 1rem;
+  border: 1px solid #eeeeee;
+  border-radius: 0.06rem;
+  margin-top: 0.1rem; }
+
+.top-list {
+  height: 0.5rem;
+  background-color: #FD6060;
+  border-top-left-radius: 0.06rem;
+  border-top-right-radius: 0.06rem;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  position: relative; }
+  .top-list span a {
+    color: #ffffff;
+    position: absolute;
+    left: 0.1rem;
+    top: 0.05rem; }
+  .top-list span b {
+    font-size: 0.44rem;
+    font-weight: normal;
+    position: absolute;
+    left: 0.3rem;
+    top: 0; }
+  .top-list span:nth-child(2) {
+    font-size: 0.26rem;
+    position: absolute;
+    right: 0.1rem;
+    top: 0.1rem; }
+
+.bot-list {
+  font-size: 0.1rem;
+  padding-top: 0.07rem; }
+  .bot-list p {
+    padding-left: 0.15rem; }
+  .bot-list p:nth-child(1) {
+    color: #00A864; }
+  .bot-list i {
+    font-size: 0.12rem;
+    padding-right: 0.05rem; }
+
+/*# sourceMappingURL=style.css.map */

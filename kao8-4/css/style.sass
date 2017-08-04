@@ -1,0 +1,74 @@
+body
+  font-size: .14rem
+  position: absolute
+  top: 0
+  bottom: 0
+  width: 100%
+  display: -webkit-flex
+  -webkit-flex-direction: column
+
+
+.header
+  height: .44rem
+  border-bottom: 1px solid #ccc
+  display: flex
+  align-items: center
+  padding: 0 .18rem
+  span
+    flex: 1
+    display: flex
+    width: 30%
+    align-items: center
+    justify-content: center
+    color: #999999
+  .active
+    color: #617EF6
+.content
+  -webkit-flex: 1
+  overflow-y: scroll
+.list
+  width: 86%
+  margin-left: 7%
+  height: 1rem
+  border: 1px solid #eeeeee
+  border-radius: .06rem
+  margin-top: .1rem
+.top-list
+  height: 0.5rem
+  background-color: #FD6060
+  border-top-left-radius: .06rem
+  border-top-right-radius: .06rem
+  color: #ffffff
+  display: flex
+  align-items: center
+  justify-content: space-between
+  width: 100%
+  position: relative
+  span
+    a
+      color: #ffffff
+      position: absolute
+      left: .1rem
+      top: 0.05rem
+    b
+      font-size: .44rem
+      font-weight: normal
+      position: absolute
+      left: .3rem
+      top: 0
+    &:nth-child(2)
+      font-size: .26rem
+      position: absolute
+      right: .1rem
+      top: .1rem
+.bot-list
+  font-size: .1rem
+  padding-top: .07rem
+  p
+    padding-left: .15rem
+
+  p:nth-child(1)
+    color: #00A864
+  i
+    font-size: .12rem
+    padding-right: 0.05rem
