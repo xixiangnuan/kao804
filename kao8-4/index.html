@@ -66,6 +66,12 @@
         </div>
 
     </div>
-
+    <script src="js/zepto.min.js"></script>
+    <script>
+        $(".header").on("click","span",function(){
+            var index=$(this).index();
+            $(this).eq(index).addClass("active").siblings().removeClass("active")
+        })
+    </script>
 </body>
 </html>
